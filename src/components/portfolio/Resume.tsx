@@ -122,15 +122,9 @@ export function Contact() {
   });
 
   const onSubmit = async (data: ContactFormValues) => {
-    const formspreeId = import.meta.env.VITE_FORMSPREE_ID;
-    if (!formspreeId) {
-      setStatus("error");
-      return;
-    }
-
     setStatus("loading");
     try {
-      const res = await fetch(`https://formspree.io/f/${formspreeId}`, {
+      const res = await fetch("https://formspree.io/f/xpqnpqjv", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
