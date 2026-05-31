@@ -106,7 +106,7 @@ export function Education() {
                 CGPA
               </div>
               <div className="mt-2 font-display text-6xl font-semibold tracking-tighter">
-                7.<span className="text-muted-foreground">778</span>
+                8.<span className="text-muted-foreground">069</span>
               </div>
             </div>
           </div>

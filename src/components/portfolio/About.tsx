@@ -51,7 +51,7 @@ export function About() {
                   { k: "2026", v: "Graduation" },
                   { k: "4+", v: "Projects" },
                   { k: "20+", v: "Tools" },
-                  { k: "7.78", v: "CGPA" },
+                  { k: "8.069", v: "CGPA" },
                 ].map((s) => (
                   <div
                     key={s.v}
